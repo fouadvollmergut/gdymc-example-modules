@@ -1,0 +1,31 @@
+/* 
+  Include this style with your 
+  bundler or copy it into a global file
+*/
+
+.multi-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.multi-content .multi-content__image {
+  position: relative;
+  aspect-ratio: 1;
+  width: 50%;
+  left: 50%;
+}
+
+.multi-content .multi-content__text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.multi-content .multi-content__text--header {
+  margin-bottom: 10px;
+}
+
+.multi-content .multi-content__text-footer {
+  margin-top: 10px;
+}
